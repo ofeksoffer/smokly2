@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate
 import json
 
 # Load the exported flow configuration
-with open("langflow_flow.json", "r") as f:
+with open("Simple Agent.json", "r") as f:
     flow_config = json.load(f)
 
 # Load the LangChain flow
