@@ -3,7 +3,7 @@ from langchain.chains import load_chain
 import json
 
 # Load LangFlow configuration
-with open("simple agent.json", "r") as f:
+with open("Simple Agent.json", "r") as f:
     flow_config = json.load(f)
 
 chain = load_chain(flow_config)
